@@ -27,7 +27,7 @@ integration:
   </cores>
 </solr>
 ```
-Run `rake sunspot:solr:run` to generate the integration core files.
+Run `RAILS_ENV=integration rake sunspot:solr:run` to run the integration core of Solr (Also generates the integration core files).
 
 #### Integration Fixtures
 
